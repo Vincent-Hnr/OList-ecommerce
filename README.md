@@ -1,34 +1,35 @@
-![Aperçu du Dashboard](assets/olist_cover.png)
+![Dashboard Preview](assets/olist_cover.png)
 
-# OList-ecommerce
-Conducting a business analysis on brazilian website Olist.
+# OList E-commerce Business Analysis
+Conducting a comprehensive business analysis of the Brazilian e-commerce platform, Olist.
 
-## 📌 Résumé du Projet
-Analysing the brazilan ecommerce website Olist to get a better understanding on dominant product categories, payment methods, and evaluate the immpact of delivery delays on customer review.
-
----
-
-## 🛠️ Stack Technique
-* **Analyse & Nettoyage :** Python (Pandas, Numpy) via Google Colab
-* **Visualisation :** Python (Plotly)
-* **Source des données :** [[Link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)]
-
-* Open in colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1azP3DsZKZwM85xHD9xW_cfmEAoRg7RAA?usp=sharing)
----
-
-## 📊 Méthodologie & Étapes
-1.  **Cleaning (Notebook) :** Nettoyage des données.
-2.  **Traitement (Notebook) :** Analyse exploratoire (EDA), gestion des valeurs manquantes et calcul des KPIs (Mean order price, Median order, Standard Deviation, Distribution).
-3.  **Visualisation (Notebook) :** Création de graphiques pour illustrer la distribution, le top 20 product categories, et les payment methodes préférés des clients.
-4.  **Statistical Analysis** : Hypothesis testing on the impact of delivery delays on customer reviews (AB testing). Visualisation & Interpretation.
+## 📌 Executive Summary
+This project analyzes Olist's ecosystem to identify dominant product categories and preferred payment methods. A significant portion of the study evaluates the impact of delivery performance on customer satisfaction through statistical analysis.
 
 ---
 
-## 📂 Structure du Repo
-* `/Notebook` : Le notebook `.ipynb` détaillé (Colab).
-* `/assets` : Captures d'écran et graphiques.
+## 🛠️ Tech Stack
+* **Analysis & Data Cleaning:** Python (Pandas, Numpy) via Google Colab
+* **Visualization:** Python (Plotly)
+* **Data Source:** [Kaggle - Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+* **Interactive Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1azP3DsZKZwM85xHD9xW_cfmEAoRg7RAA?usp=sharing)
+
+---
+
+## 📊 Methodology & Workflow
+1. **Data Cleaning:** Handling duplicates, formatting dates, and merging relational datasets.
+2. **Data Processing (EDA):** Exploratory Data Analysis, missing value management, and KPI calculation (Mean/Median Order Value, Standard Deviation, and Distribution analysis).
+3. **Data Visualization:** Crafting interactive charts to illustrate sales distribution, Top 20 product categories, and customer payment preferences.
+4. **Statistical Analysis:** Conducting hypothesis testing (A/B testing approach) to measure the correlation between delivery delays and customer review scores.
+
+---
+
+## 📂 Repository Structure
+* `/Notebook`: Detailed `.ipynb` notebook containing the full analysis.
+* `/assets`: Screenshots, visualizations, and cover images.
 
 ---
 
 ## 📬 Contact
-[[Vincent Henrion](https://www.linkedin.com/in/vincent-henrion/)]
+**Vincent Henrion** - [LinkedIn Profile](https://www.linkedin.com/in/vincent-henrion/)
