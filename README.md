@@ -1,40 +1,34 @@
+![Aperçu du Dashboard](assets/olist_cover.png)
+
 # OList-ecommerce
 Conducting a business analysis on brazilian website Olist.
 
 ## 📌 Résumé du Projet
-Analyse des performances du site 
-*Exemple : "Optimisation des stocks d'une chaîne de distribution en utilisant SQL pour l'extraction et Python pour la modélisation prédictive."*
+Analysing the brazilan ecommerce website Olist to get a better understanding on dominant product categories, payment methods, and evaluate the immpact of delivery delays on customer review.
 
 ---
 
 ## 🛠️ Stack Technique
-* **Stockage & Requêtage :** Google BigQuery (SQL)
 * **Analyse & Nettoyage :** Python (Pandas, Numpy) via Google Colab
-* **Visualisation :** Looker Studio
-* **Source des données :** [Lien vers le dataset ou nom de la source]
+* **Visualisation :** Python (Plotly)
+* **Source des données :** [[Link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)]
 
+* Open in colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1azP3DsZKZwM85xHD9xW_cfmEAoRg7RAA?usp=sharing)
 ---
 
 ## 📊 Méthodologie & Étapes
-1.  **Extraction (BigQuery) :** Nettoyage des doublons et jointures entre les tables clients et transactions.
-2.  **Traitement (Notebook) :** Analyse exploratoire (EDA), gestion des valeurs manquantes et calcul des KPIs (LTV, Churn rate).
-3.  **Visualisation (Looker) :** Création d'un dashboard interactif pour les décideurs.
-
----
-
-## 🚀 Résultats Clés
-* **Insight 1 :** Identification d'une baisse de 10% des ventes le mardi.
-* **Insight 2 :** Segmentation des clients en 3 groupes distincts (RFM).
-* **Lien direct :** [🔗 Consulter le Dashboard Interactif Looker Studio](LIEN_PUBLIC)
+1.  **Cleaning (Notebook) :** Nettoyage des données.
+2.  **Traitement (Notebook) :** Analyse exploratoire (EDA), gestion des valeurs manquantes et calcul des KPIs (Mean order price, Median order, Standard Deviation, Distribution).
+3.  **Visualisation (Notebook) :** Création de graphiques pour illustrer la distribution, le top 20 product categories, et les payment methodes préférés des clients.
+4.  **Statistical Analysis** : Hypothesis testing on the impact of delivery delays on customer reviews (AB testing). Visualisation & Interpretation.
 
 ---
 
 ## 📂 Structure du Repo
-* `/sql` : Contient les scripts `.sql` utilisés dans BigQuery.
-* `/notebooks` : Le notebook `.ipynb` détaillé (Colab).
+* `/Notebook` : Le notebook `.ipynb` détaillé (Colab).
 * `/assets` : Captures d'écran et graphiques.
 
 ---
 
 ## 📬 Contact
-[Votre Nom] - [Lien LinkedIn]
+[[Vincent Henrion](https://www.linkedin.com/in/vincent-henrion/)]
